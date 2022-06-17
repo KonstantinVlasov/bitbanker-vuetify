@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-col cols="6">
+      <v-col>
         <v-select
           :items="exchanges"
           label="Choose exchange"
@@ -21,14 +21,14 @@
           solo flat
           background-color="border"
         >
-          <v-btn
+          <v-chip
             slot="append"
-            small
+            label
             color="label"
-            class="text-capitalize"
+            class="white--text"
           >
             Max
-          </v-btn>
+          </v-chip>
         </v-text-field>
 
         <v-btn

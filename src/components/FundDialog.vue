@@ -1,5 +1,4 @@
 <template>
-  <v-row justify="center">
     <v-dialog
       v-model="dialog"
       persistent
@@ -10,6 +9,7 @@
           color="primary"
           v-bind="attrs"
           v-on="on"
+          class="text-capitalize"
         >
           Fund my account
         </v-btn>
@@ -20,6 +20,7 @@
             <v-tab
               v-for="item in items"
               :key="item.tab"
+              class="text-capitalize"
             >
               {{ item.tab}}
             </v-tab>
@@ -39,12 +40,12 @@
             <component
               v-bind:is="item.content"
               class="mt-8 mb-16"
+              style="width: 380px"
             />
           </v-tab-item>
         </v-tabs-items>
       </v-card>
     </v-dialog>
-  </v-row>
 </template>
 
 <script>
