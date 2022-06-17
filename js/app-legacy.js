@@ -456,7 +456,7 @@ eval("module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABdwAAAXcA
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	!function() {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "/bitbanker-vuetify/";
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
